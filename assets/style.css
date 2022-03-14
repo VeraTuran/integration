@@ -1,12 +1,11 @@
-* {
+/* * {
   border: 1px solid red;
-}
+} */
 
 body {
   background-color: #6d645f;
   margin: 0;
   display: block;
-  /* min-height: 100%; */
 }
 
 main {
@@ -126,12 +125,6 @@ a:hover {
 .bottom-text {
   font-size: 0.6rem;
 }
-/* 
-.bottom-text em {
-  color: #682e33;
-  font-style: normal;
-  font-weight: bold;
-} */
 
 ul {
   padding-left: 1rem;
@@ -149,12 +142,15 @@ button {
 }
 
 footer {
+  display: flex;
+  justify-content: space-between;
   background-color: #ffffff;
   margin-left: 25%;
   margin-right: 25%;
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 0.5rem;
+  padding-right: 0.5rem;
   font-size: 0.7rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   /* border-top-color: #6d645f;
